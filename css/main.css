@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+#navigation {
+    height: 8vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    z-index: 1;
+}
+#navigation div {
+    margin: 18px 23px;
+    font-size: 18px;
+}
+#navigation a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 10px 17px;;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    letter-spacing: 3px;
+}
+#navigation a:hover {
+    background-color: rgba(148, 148, 148, 0.58);
+}
+#header {
+    position: relative;
+}
+#center{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top:50%;
+    left: 40%;
+}
+#header span {
+    font-weight: bold;
+    background-color: #000000b8; 
+    padding: 8px 23px;
+}
+#body {
+    margin: 0 auto;
+    width: 95%;
+}
+hr {
+    opacity: 0.5;
+}
+.title {
+    font-size: 25px;
+}
+#projects > div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img-house {
+    position: relative;
+    margin-top: 15px;
+}
+.text-on-img {
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    width: 120px;
+    padding: 10px 17px;;
+    color: white;
+    font-size: 17px;
+}
+#about {
+    margin-top: 60px;
+    font-family: Verdana,sans-serif;
+}
+.text {
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 23px;
+}
+#team {
+    display: flex;
+    justify-content: space-between;
+}
+.person {
+    margin-top: 30px;
+}
+.person p {
+    font-size: 17px;
+}
+.opacity {
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.582);
+}
+.person span {
+    line-height: 23px;
+}
+.person a {
+    background-color: rgba(210, 210, 210, 0.58);
+    color: black;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 0px;
+    padding-left: 124px;
+    margin-top: 10px;
+    width: 180px;
+}
+.person a:hover {
+    background-color: rgba(148, 148, 148, 0.58);
+}
+#contact {
+    font-family: Verdana,sans-serif;
+    font-size: 16px;
+}
+.input{
+    width: 100%;
+    padding: 7px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.send {
+    background-color: black;
+    color: white;
+    border-style: none;
+    border: rgba(53, 53, 53, 0.767);
+    width: 170px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.send:hover {
+    background-color: rgba(148, 148, 148, 0.58);
+    color: black;
+}
+#footer {
+    background-color: black;
+    height: 70px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+#footer p {
+    color: white;
+    text-align: center; 
+}
+#footer a {
+    color: white;
+}
